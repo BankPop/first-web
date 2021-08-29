@@ -1,1 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+/* Start Hero Section */
+.img {
+    height: auto;
+    width: 100%;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* End Hero Section */
