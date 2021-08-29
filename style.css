@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Teko:wght@500&display=swap');
+@media only screen and (max-wigth: 600px) {
+    
+}
 * {
     margin: 0;
     padding: 0;
@@ -158,6 +161,112 @@ ul li a:hover {
 
 .content span {
     color: #ffba00;
-    font-size: 60px;
+    font-size: 65px;
+}
+
+.form {
+    width: 300px;
+    height: 420px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2 {
+    width: 240px;
+    text-align: center;
+    color: #c0b024;
+    font-size: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 2px;
+    letter-spacing: 1.5px;
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ffba00;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #135a46;
+}
+
+.btnn {
+    width: 240px;
+    height: 40px;
+    background: #6d9773;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.btnn:hover {
+    background: #fff;
+}
+
+.btnn a {
+    text-decoration: none;
+    color: #0c3b2e;
+    font-weight: 20px;
+    letter-spacing: 1px;
+}
+
+.form .link {
+    font-size: 19px;
+    letter-spacing: 1.5px;
+    line-height: 35px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a {
+    text-decoration: none;
+    color: #ffba00;
+}
+
+.liw {
+    padding-top: 9px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icons a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons ion-icon {
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icons ion-icon:hover {
+    color: #ffba00;
 }
 /* End Content */
