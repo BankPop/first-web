@@ -11,8 +11,9 @@
 }
 
 /* Start Hero Section */
-.main-container {
-    width: 100%;
+.head-container {
+    min-width: 1680px;
+    max-height: 1050px;
     background: url(https://images.unsplash.com/photo-1630086154002-dbc3117c466b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80);
     background-position: center;
     background-size: cover;height: 109vh;
@@ -270,3 +271,7 @@ ul li a:hover {
     color: #ffba00;
 }
 /* End Content */
+
+/* Main Content start */
+
+/* Main Content end */
